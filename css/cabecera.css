@@ -1,0 +1,591 @@
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #330250;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background: transparent;
+}
+.header-color-blanco {
+  background: #f3f3f3;
+}
+.header .header__contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 30%;
+  padding-top: 10px;
+}
+.logo .logo__titulo {
+  font-family: "Hanalei Fill", cursive;
+  color: #ff1f7a;
+}
+
+.logo .logo__titulo .span {
+  color: #b72976;
+}
+
+.navegacion {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.navegacion .navegacion__link {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fe6662;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: "Hanalei Fill", cursive;
+  padding-top: 10px;
+}
+
+.navegacion .navegacion__link:hover {
+  border-bottom: 2px dashed #15aec2;
+  color: #fff;
+}
+.scrolled {
+  width: 100%;
+  height: 80px;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  transition: all 0.5s ease;
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+}
+
+/* COMIENZO PAGINA PRINCIPAL */
+
+.main {
+  width: 100%;
+  height: auto;
+  background: #040402;
+}
+.main__bienvenida {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(../img/1eo3.gif);
+}
+
+/* .main .main__bienvenida .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+} */
+
+.main__bienvenida .main__bienvenida__contenedor__titulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "SEGA";
+  src: url("../fonts/SEGA.TTF");
+}
+
+.main__bienvenida
+  .main__bienvenida__contenedor__titulo
+  .contenedor__titulo__titulo__principal {
+  color: #f80086;
+  font-size: 4.6rem;
+  font-family: "SEGA";
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.main__bienvenida__contenedor__titulo__primer__div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+.main
+  .main__bienvenida
+  .main__bienvenida__contenedor__titulo
+  .contenedor__titulo__titulo__principal
+  .span__titulo_principal {
+  color: #15aec2;
+}
+
+.main__bienvenida__contenedor__titulo__secundario {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main__bienvenida__contenedor__titulo__secundario
+  .main__bienvenida__contenedor__titulo__secundario__principal {
+  color: #fe6662;
+  font-size: 2.5rem;
+  font-family: "Hanalei Fill", cursive;
+}
+
+.enlace__trabajemosJuntos {
+  background: rgb(248, 0, 134);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 0, 134, 1) 0%,
+    rgba(21, 174, 194, 1) 86%
+  );
+  padding: 15px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.enlace__trabajemosJuntos:hover {
+  color: rgb(248, 0, 134);
+  background: #fff;
+}
+/*MENU  */
+@media (max-width: 1046px) {
+  .navegacion .navegacion__link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fe6662;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: "Hanalei Fill", cursive;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 696px) {
+  .logo {
+    width: 40%;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 524px) {
+  .logo {
+    width: 40%;
+    padding-top: 10px;
+  }
+  .logo__titulo {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 424px) {
+  .logo {
+    width: 44%;
+    padding-top: 10px;
+  }
+  .logo__titulo {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 386px) {
+  .logo {
+    width: 50%;
+    padding-top: 10px;
+  }
+  .logo__titulo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 978px) {
+  .navegacion .navegacion__link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fe6662;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: "Hanalei Fill", cursive;
+    padding-top: 10px;
+  }
+}
+
+.icono {
+  display: none;
+}
+@media (max-width: 912px) {
+  .icono {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navegacion {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(51, 2, 80, 0.8);
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+
+  .navegacion .navegacion__link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fe6662;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-family: "Hanalei Fill", cursive;
+    padding: 20px;
+    display: block;
+  }
+
+  .icono-menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+  }
+  .icono-menu img {
+    vertical-align: top;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .active {
+    transform: translate(-600px);
+    transition: all 0.5s ease;
+  }
+}
+
+@media (max-width: 1256px) {
+  .main__bienvenida .main__bienvenida__contenedor__titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    border: 1p solid red;
+  }
+
+  .main__bienvenida__contenedor__titulo__primer__div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: center;
+  }
+
+  .main
+    .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal
+    .span__titulo_principal {
+    color: #15aec2;
+    border: 1p solid red;
+    width: 100%;
+  }
+
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 4rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 3.5rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .main__bienvenida__contenedor__titulo__secundario
+    .main__bienvenida__contenedor__titulo__secundario__principal {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 983px) {
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 3.2rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .main__bienvenida__contenedor__titulo__secundario
+    .main__bienvenida__contenedor__titulo__secundario__principal {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 3.1rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .main__bienvenida__contenedor__titulo__secundario
+    .main__bienvenida__contenedor__titulo__secundario__principal {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+@media (max-width: 870px) {
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 3.1rem;
+    font-family: "SEGA";
+
+    margin: 0px;
+    margin-left: 10px;
+    /* display: block; */
+    text-align: center;
+  }
+  .main__bienvenida__contenedor__titulo__secundario
+    .main__bienvenida__contenedor__titulo__secundario__principal {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 404px) {
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 2.9rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+    /* display: block; */
+    text-align: center;
+  }
+  .main__bienvenida__contenedor__titulo__secundario
+    .main__bienvenida__contenedor__titulo__secundario__principal {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .enlace__trabajemosJuntos {
+    background: rgb(248, 0, 134);
+    background: linear-gradient(
+      90deg,
+      rgba(248, 0, 134, 1) 0%,
+      rgba(21, 174, 194, 1) 86%
+    );
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main__bienvenida__contenedor__titulo__primer__div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+  }
+  .main__bienvenida .main__bienvenida__contenedor__titulo {
+    margin-top: -40px;
+  }
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 2.5rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+    /* display: block; */
+    text-align: center;
+  }
+
+  .main__bienvenida__contenedor__titulo__secundario
+    .main__bienvenida__contenedor__titulo__secundario__principal {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .enlace__trabajemosJuntos {
+    background: rgb(248, 0, 134);
+    background: linear-gradient(
+      90deg,
+      rgba(248, 0, 134, 1) 0%,
+      rgba(21, 174, 194, 1) 86%
+    );
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 395px) {
+  .navegacion {
+    width: 380px;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(51, 2, 80, 0.8);
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+}
+
+@media (max-width: 361px) {
+  .navegacion {
+    width: 340px;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(51, 2, 80, 0.8);
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 2.4rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+    /* display: block; */
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .navegacion {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(51, 2, 80, 0.8);
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+}
+
+@media (max-width: 314px) {
+
+  .logo__titulo{
+    font-size: 22px;
+  }
+ 
+}
+
+
+@media (max-width: 300px) {
+  
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 2.2rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+    /* display: block; */
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 290px) {
+  .navegacion {
+    width: 270px;
+    padding: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(51, 2, 80, 0.8);
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+  }
+
+  .main__bienvenida
+    .main__bienvenida__contenedor__titulo
+    .contenedor__titulo__titulo__principal {
+    color: #f80086;
+    font-size: 2.2rem;
+    font-family: "SEGA";
+    margin: 0px;
+    margin-left: 10px;
+  }
+
+  .logo__titulo {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,643 @@
+/* INICIO PAGINA SECCION  SOBRE MI */
+
+.main__sobre_mi {
+  width: 100%;
+  background: #040402;
+  color: #ff1f7a;
+  height: 830px;
+}
+
+.main__sobre_mi .contenedor-section__sobre_mi {
+  width: 100%;
+  height: 830px;
+  display: flex;
+}
+
+.main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+  width: 45%;
+  padding: 10px;
+}
+
+.main__sobre_mi
+  .contenedor-section__sobre_mi
+  .main__sobre_mi__quien_soy
+  .main__sobre_mi__quien_soy__h3 {
+  color: #15aec2;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "SEGA";
+  margin-top: 35px;
+  padding-top: 100px;
+}
+
+.main__sobre_mi
+  .contenedor-section__sobre_mi
+  .main__sobre_mi__quien_soy
+  .main__sobre_mi__quien_soy__h2 {
+  color: #fff;
+  line-height: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.main__sobre_mi
+  .contenedor-section__sobre_mi
+  .main__sobre_mi__quien_soy
+  .main__sobre_mi__quien_soy__parrafo {
+  color: #8e8e8e;
+  line-height: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.main__sobre_mi
+  .contenedor-section__sobre_mi
+  .main__sobre_mi__quien_soy
+  .button-cv {
+  background: rgb(248, 0, 134);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 0, 134, 1) 0%,
+    rgba(21, 174, 194, 1) 86%
+  );
+  display: block;
+  padding: 15px 30px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 2px solid #191919;
+}
+.main__sobre_mi
+  .contenedor-section__sobre_mi
+  .main__sobre_mi__quien_soy
+  .button-cv:hover {
+  background: #fff;
+  color: #b72976;
+}
+
+.main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__skills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__sobre_mi__skills__content_title {
+  width: 100%;
+}
+
+.content_title__titulo {
+  padding-top: 100px;
+  color: #15aec2;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "SEGA";
+  margin-top: 40px;
+}
+
+.contenedor_skills {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor_skills .skills__lenguajes {
+  width: 40%;
+  border: 2px solid inherit;
+  padding: 20px;
+  background: #191919;
+  margin: 10px auto;
+}
+
+.contenedor_skills .skills__lenguajes i {
+  text-align: center;
+}
+
+.contenedor_skills .skills__lenguajes .fab {
+  font-size: 70px;
+  margin: 5px auto;
+  display: block;
+  color: #8e8e8e;
+}
+
+.contenedor_skills .skills__lenguajes .texto__imagen {
+  margin-top: 9px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #8e8e8e;
+}
+
+.contenedor_skills .skills__lenguajes .fa-html5 {
+  color: #f64a1d;
+}
+
+.contenedor_skills .skills__lenguajes .fa-css3-alt {
+  color: #0091ca;
+}
+
+.contenedor_skills .skills__lenguajes .fa-js {
+  color: #f7df1e;
+}
+
+.contenedor_skills .skills__lenguajes .fa-python {
+  color: #fff;
+}
+
+.contenedor_skills .skills__lenguajes .fa-git-alt {
+  color: #EB4D28;
+}
+
+.contenedor_skills .skills__lenguajes .fa-bootstrap {
+  color: #5a3a7b;
+}
+
+.contenedor_skills .skills__lenguajes .imagen1 {
+  color: #f64a1d;
+}
+.contenedor_skills .skills__lenguajes .imagen2 {
+  color: #0091ca;
+}
+
+.contenedor_skills .skills__lenguajes .imagen3 {
+  color: #f7df1e;
+}
+
+.contenedor_skills .skills__lenguajes .imagen4 {
+  color: #fff;
+}
+
+.contenedor_skills .skills__lenguajes .imagen5 {
+  color: #EB4D28;
+}
+
+.contenedor_skills .skills__lenguajes .imagen6 {
+  color: #5a3a7b;
+}
+
+@media (max-width: 1121px) {
+  .button-cv {
+    background: rgb(248, 0, 134);
+    background: linear-gradient(
+      90deg,
+      rgba(248, 0, 134, 1) 0%,
+      rgba(21, 174, 194, 1) 86%
+    );
+    display: block;
+    padding: 12px 25px;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid #191919;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1183px) {
+  .contenedor_skills .skills__lenguajes {
+    width: 40%;
+    border: 2px solid inherit;
+    padding: 20px 10px;
+    background: #191919;
+    margin: 10px auto;
+  }
+
+  .contenedor_skills .skills__lenguajes .fab {
+    font-size: 60px;
+    margin: 5px auto;
+    display: block;
+  }
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.3rem;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 15px;
+  }
+  
+}
+
+@media (max-width: 1033px) {
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.2rem;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 954px) {
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 13px;
+    text-align: center;
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 945px) {
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 12px;
+    text-align: center;
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 907px) {
+  .main__sobre_mi .contenedor-section__sobre_mi {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+    width: 100%;
+    padding: 10px;
+  }
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 16px;
+    text-align: center;
+  }
+  .button-cv {
+    width: 27% !important;
+   
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content_title__titulo{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .contenedor_skills .skills__lenguajes {
+    width: 40%;
+    border: 2px solid inherit;
+    padding: 20px;
+    background: #191919;
+    
+  }
+  .contenedor_skills {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 765px) {
+  .main__sobre_mi .contenedor-section__sobre_mi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+    width: 100%;
+    padding: 10px;
+  }
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 691px) {
+
+ .contenedor_skills .skills__lenguajes {
+    width: 36%;
+    border: 2px solid inherit;
+    padding: 20px;
+    background: #191919;
+    
+    
+  }
+}
+
+
+@media (max-width: 541px) {
+  .main__sobre_mi .contenedor-section__sobre_mi {
+    width: 100%;
+    /* height: 830px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+    width: 100%;
+    padding: 10px;
+  }
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 513px) {
+  .main__sobre_mi .contenedor-section__sobre_mi {
+    width: 100%;
+    /* height: 830px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__sobre_mi .contenedor-section__sobre_mi .main__sobre_mi__quien_soy {
+    width: 100%;
+    padding: 10px;
+  }
+  .main__sobre_mi
+    .contenedor-section__sobre_mi
+    .main__sobre_mi__quien_soy
+    .main__sobre_mi__quien_soy__h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 35px;
+  }
+  .main__sobre_mi__quien_soy__parrafo {
+    font-size: 12px;
+    text-align: left;
+    margin: 10px;
+  }
+  .contenedor {
+    width: 90%;
+  }
+}
+
+@media (max-width: 455px) {
+  .contenedor_skills .skills__lenguajes {
+    width: 33%;
+    border: 2px solid inherit;
+    padding: 20px;
+    background: #191919;
+    
+    
+    
+  }
+  .contenedor_skills .skills__lenguajes .fab {
+    font-size: 40px;
+    margin: 5px auto;
+    display: block;
+   
+  }
+  .contenedor_skills .skills__lenguajes .texto__imagen {
+    margin-top: 9px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1rem;
+   
+  }
+
+}
+
+
+
+/* FIN PAGINA SECCION  SOBRE MI */
+
+/* COMIENZO PAGINA SECCION  SERVICIOS */
+
+.main__servicios {
+  width: 100%;
+  color: #fff;
+  height: 850px;
+  background: #040402;
+ 
+}
+
+.main__servicios__contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  height: auto;
+}
+
+.main__servicios__contenedor .servicios__contenedor__mis__servicios {
+  width: 40%;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  background: #191919;
+  padding: 10px;
+}
+.main__servicios__contenedor .servicios__contenedor__mis__servicios:hover {
+  border-top: 6px solid rgba(248, 0, 134, 1);
+  border-left: 2px solid rgba(248, 0, 134, 1);
+  border-bottom: 6px solid rgba(21, 174, 194, 1);
+  border-right: 2px solid rgba(21, 174, 194, 1);
+}
+
+.servicios__contenedor__mis__servicios .mis__servicios__imagen {
+  width: 50%;
+  margin: 10px auto;
+}
+.servicios__contenedor__mis__servicios .mis__servicios__imagen .imagen-fas {
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  color: #8e8e8e;
+}
+
+.servicios__contenedor__mis__servicios .mis__servicios__titulo {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.servicios__contenedor__mis__servicios .mis__servicios__texto {
+  font-size: 1.1rem;
+  text-align: center;
+  width: 70%;
+  margin: 7px auto;
+  color: #8e8e8e;
+}
+
+.servicios__contenedor__mis__servicios
+  .mis__servicios__imagen
+  .imagen1__servicios {
+  color: rgba(248, 0, 134, 1);
+}
+.servicios__contenedor__mis__servicios
+  .mis__servicios__imagen
+  .imagen2__servicios {
+  color: rgba(21, 174, 194, 1);
+}
+.servicios__contenedor__mis__servicios
+  .mis__servicios__imagen
+  .imagen3__servicios {
+  color: rgba(21, 174, 194, 1);
+}
+.servicios__contenedor__mis__servicios
+  .mis__servicios__imagen
+  .imagen4__servicios {
+  color: rgba(248, 0, 134, 1);
+}
+
+.title__servicios {
+  /* padding-top: 100px; */
+  color: #15aec2;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "SEGA";
+  padding-top: 150px;
+  margin-bottom: 30px;
+}
+/* FIN PAGINA SECCION  SERVICIOS */
+
+@media (max-width: 907px) {
+  .main__servicios {
+    width: 100%;
+    color: #fff;
+    height: auto;
+    background: #040402;
+    margin-top: 300px;
+  }
+  .main__servicios__contenedor .servicios__contenedor__mis__servicios {
+    width: 43%;
+    /* margin-bottom: 25px;
+    margin-right: 25px; */
+    background: #191919;
+    padding: 8px;
+    margin-bottom: 40px;
+  }
+  .main__servicios__contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 712px) {
+
+  .main__servicios__contenedor .servicios__contenedor__mis__servicios {
+    width: 100%;
+    /* margin-bottom: 25px;
+    margin-right: 25px; */
+    background: #191919;
+    padding: 7px;
+    margin-bottom: 40px;
+  }
+  .main__servicios__contenedor .servicios__contenedor__mis__servicios {
+    width: 94%;
+    background: #191919;
+    margin: 20px auto;
+    /* margin-top: 30px; */
+    
+    
+  }
+  .main__servicios__contenedor {
+    padding: 0px;
+  }
+  .servicios__contenedor__mis__servicios .mis__servicios__imagen .imagen-fas {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    /* color: #8e8e8e; */
+  }
+
+
+}
+@media (max-width: 455px) {
+  .main__servicios__contenedor .servicios__contenedor__mis__servicios {
+    width: 87%;
+    background: #191919;
+    margin: 20px auto;
+    /* margin-top: 30px; */  
+  }
+  .servicios__contenedor__mis__servicios .mis__servicios__texto {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 85%;
+    margin: 7px auto;
+    color: #8e8e8e;
+  }
+  
+}
+
+
+@media (max-width: 461px) {
+  
+  .main__servicios {
+    width: 100%;
+    color: #fff;
+    height: auto;
+    background: #040402;
+    margin-top: 350px;
+  }
+
+}
+
+
+
+@media (max-width: 321px) {
+  
+  .main__servicios {
+    width: 100%;
+    color: #fff;
+    height: auto;
+    background: #040402;
+    margin-top: 420px;
+  }
+
+}
+
+
+
+
+
